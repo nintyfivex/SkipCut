@@ -16,10 +16,9 @@
 - [✨ Features](#-features)
 - [🎯 Why SkipCut?](#-why-skipcut)
 - [🚀 Quick Start](#-quick-start)
+- [🎯 SponsorBlock Integration](#-sponsorblock-integration)
 - [📱 Device Compatibility](#-device-compatibility)
-- [⚡ Performance](#-performance)
 - [🎨 Screenshots](#-screenshots)
-- [🗺️ Roadmap](#️-roadmap)
 - [🤝 Contributing](#-contributing)
 - [💝 Support](#-support)
 
@@ -34,20 +33,52 @@
 - **📱 Mobile Optimized**: Perfect experience on smartphones and tablets
 
 ### 🎛️ **Advanced Features**
-- **📋 Playlist Support**: Load and play YouTube playlists seamlessly
-- **⬇️ Download Options**: Download videos in multiple formats
-- **🔗 Smart Sharing**: Generate ad-free SkipCut links
+- **🎯 SponsorBlock Integration**: Automatically skip sponsor segments, intros, outros, and more
+- **📋 Enhanced Playlist Support**: Load and play YouTube playlists with smart caching
+- **⬇️ Download Options**: Download videos in multiple formats and qualities
+- **🔗 Smart Sharing**: Generate ad-free SkipCut links with custom parameters
 - **📱 PWA Support**: Install as a native app on any device
-- **🌙 Dark/Light Theme**: Beautiful themes for comfortable viewing
-- **💾 Smart History**: Local storage with automatic cleanup
-- **🔍 History Search**: Find previously watched videos quickly
+- **🌙 Enhanced Dark/Light Theme**: Beautiful, customizable themes for comfortable viewing
+- **💾 Smart History**: Local storage with automatic cleanup and search functionality
+- **🔍 Advanced History Search**: Find previously watched videos quickly with filtering
 - **📊 Watch Analytics**: Track your viewing patterns (privacy-focused)
+- **🎮 Keyboard Controls**: Full keyboard navigation and media key support
 
 ### 🛡️ **Privacy & Security**
 - **🔒 Privacy-First**: No data collection or tracking
 - **🌐 Local Storage**: All data stays on your device
 - **🚫 No Cookies**: Clean browsing experience
 - **🔐 Secure**: HTTPS encrypted connections
+- **📱 Offline-Ready**: PWA technology for offline access
+
+## 🎯 SponsorBlock Integration
+
+SkipCut now includes full **SponsorBlock** integration to enhance your viewing experience:
+
+### 🎯 **Supported Segment Types**
+- **Sponsor**: Paid promotions and sponsorships
+- **Self Promotion**: Creator's own products/services
+- **Interaction Reminder**: Like, subscribe, notification bell
+- **Intro**: Introduction sequences
+- **Outro**: End credits and outros
+- **Preview**: Recap of previous videos
+- **Music**: Non-music sections in music videos
+- **Filler**: Tangential or filler content
+
+### ⚙️ **SponsorBlock Features**
+- **Smart Skipping**: Automatically skip unwanted segments
+- **Visual Timeline**: See segments on the video timeline
+- **Customizable Categories**: Enable/disable specific segment types
+- **Skip Notifications**: Toast notifications when segments are skipped
+- **Manual Override**: Option to disable for specific videos
+- **Community-Powered**: Uses the SponsorBlock community database
+
+### 🎮 **How to Use**
+1. SponsorBlock is enabled by default
+2. Click the SponsorBlock icon in the video player to configure
+3. Toggle specific categories on/off based on your preferences
+4. View skip statistics and segment information
+5. Disable temporarily using the toggle button
 
 ## 🎯 Why SkipCut?
 
@@ -59,15 +90,18 @@
 | **No Installation** | 🟢 Yes | 🔴 No | 🔴 Requires Extension | 🔴 Requires App |
 | **Mobile Support** | 🟢 Perfect | 🟢 Good | 🔴 Limited | 🟡 App Required |
 | **Background Play** | 🟢 Yes | 🟢 Yes | 🔴 No | 🟡 Some Apps |
-| **Playlist Support** | 🟢 Yes | 🟢 Yes | 🟡 Limited | 🟡 Varies |
+| **Playlist Support** | 🟢 Enhanced | 🟢 Yes | 🟡 Limited | 🟡 Varies |
 | **Download Support** | 🟢 Yes | 🟡 Premium Only | 🔴 No | 🟡 Some Apps |
+| **SponsorBlock** | 🟢 Built-in | 🔴 No | 🟡 Extension Required | 🔴 Limited |
 | **Universal Access** | 🟢 Any Device | 🔴 Account Required | 🔴 Extension Required | 🔴 Platform Specific |
+| **Sharing Links** | 🟢 Custom SkipCut URLs | 🔴 No | 🔴 No | 🔴 No |
 
 ### 🏆 **Key Advantages**
 - **Instant Access**: Works immediately on any device
 - **Zero Commitment**: No signups, subscriptions, or installations
 - **Cross-Platform**: Perfect experience on iOS, Android, Desktop, Smart TVs
 - **Ad-Free Guarantee**: 100% ad-free viewing experience
+- **SponsorBlock Built-in**: No need for additional extensions
 - **Privacy Focused**: No tracking, no data collection
 - **Always Updated**: Web-based means always latest features
 
@@ -77,7 +111,7 @@
 1. Visit [skipcut.com](https://skipcut.com)
 2. Paste any YouTube URL in the search box
 3. Click "Load Video" or press Enter
-4. Enjoy ad-free viewing!
+4. Enjoy ad-free viewing with automatic sponsor skipping!
 
 ### 🔗 **Supported URL Formats**
 - `https://youtube.com/watch?v=VIDEO_ID`
@@ -85,11 +119,20 @@
 - `https://youtube.com/shorts/VIDEO_ID`
 - `https://youtube.com/embed/VIDEO_ID`
 - `https://youtube.com/playlist?list=PLAYLIST_ID`
+- `https://skipcut.com/watch?v=VIDEO_ID` (SkipCut direct links)
 
 ### 📱 **Install as PWA (Progressive Web App)**
 1. Visit [skipcut.com](https://skipcut.com) on your mobile device
 2. Tap the "Add to Home Screen" option in your browser
 3. Launch SkipCut like a native app
+
+### 🎮 **Keyboard Shortcuts**
+- **Space**: Play/Pause
+- **← →**: Seek backward/forward (10 seconds)
+- **↑ ↓**: Volume up/down
+- **F**: Toggle fullscreen
+- **M**: Toggle mute
+
 
 ## 📱 Device Compatibility
 
@@ -111,38 +154,17 @@
 - ✅ **Gaming Consoles**: PS5, Xbox browsers
 - ✅ **Smart Watches**: Apple Watch, Android Wear
 
-## ⚡ Performance
-
-### 🚀 **Speed Metrics**
-- **Initial Load**: < 2 seconds
-- **Video Start**: < 1 second
-- **Theme Switch**: Instant
-- **History Search**: Real-time
-
-### 💾 **Resource Usage**
-- **Memory**: Lightweight footprint
-- **Storage**: Minimal local storage usage
-- **Bandwidth**: Optimized video delivery
-- **Battery**: Power-efficient playback
-
-
 ## 🎨 Screenshots
 
 <div align="center">
   <img src="https://skipcut.com/ss.png" alt="SkipCut Desktop Interface" width="600">
-  <p><em>Desktop Interface - Clean and intuitive design</em></p>
+  <p><em>Desktop Interface - Clean and intuitive design with SponsorBlock integration</em></p>
   
   <img src="https://skipcut.com/ss.jpg" alt="SkipCut Mobile Interface" width="300">
   <p><em>Mobile Interface - Optimized for touch devices</em></p>
 </div>
 
-## 🗺️ Roadmap
 
-### 🎯 **Coming Soon**
-- **🎯 SponsorBlock Integration**: Skip sponsor segments automatically
-- **🤖 AI Transcript**: Automatic video transcription with search
-- **📝 AI Summary**: Smart video summaries and key points
-- **🎨 Enhanced UI**: More customization and viewing options
 
 ### 💡 **Feature Requests**
 Have an idea? [Open an issue](https://github.com/nintyfivex/SkipCut/issues) or [join our community](https://t.me/skipcut)!
@@ -161,8 +183,6 @@ We welcome contributions! Here's how you can help:
 2. Describe the feature and use case
 3. Explain why it would benefit users
 
-
-
 ## 💝 Support
 
 SkipCut is completely free and always will be. Your support helps us maintain servers, add new features, and keep the lights on!
@@ -177,7 +197,9 @@ SkipCut is completely free and always will be. Your support helps us maintain se
 - **Spread the Word**: Tell friends about SkipCut
 - **Report Bugs**: Help us improve the platform
 - **Suggest Features**: Share your ideas
+- **Contribute Code**: Submit pull requests
 - **Translate**: Help make SkipCut multilingual
+- **SponsorBlock**: Contribute to the SponsorBlock community database
 
 ---
 
@@ -203,4 +225,4 @@ SkipCut is completely free and always will be. Your support helps us maintain se
 
 ## 🏷️ Keywords
 
-`youtube-ad-blocker` `ad-free-youtube` `youtube-without-ads` `youtube-player` `web-app` `pwa` `javascript` `html5` `css3` `mobile-first` `cross-platform` `privacy-focused` `youtube-api` `background-play` `playlist-support` `download-videos` `no-installation` `browser-based` `responsive-design` `dark-theme` `smart-tv` `ios` `android` `desktop` `tablet` `revanced-alternative` `newpipe-alternative` `youtube-premium-free` `sponsor-block` `video-streaming` `media-player` `ad-blocker` `youtube-downloader` `offline-viewing` `youtube-tools` `video-tools` `streaming-service` `youtube-enhancement` `video-player` `media-streaming` 
+`youtube-ad-blocker` `ad-free-youtube` `youtube-without-ads` `youtube-player` `sponsorblock` `sponsor-skip` `web-app` `pwa` `javascript` `html5` `css3` `mobile-first` `cross-platform` `privacy-focused` `youtube-api` `background-play` `playlist-support` `download-videos` `no-installation` `browser-based` `responsive-design` `dark-theme` `smart-tv` `ios` `android` `desktop` `tablet` `revanced-alternative` `newpipe-alternative` `youtube-premium-free` `sponsor-block` `video-streaming` `media-player` `ad-blocker` `youtube-downloader` `offline-viewing` `youtube-tools` `video-tools` `streaming-service` `youtube-enhancement` `video-player` `media-streaming` `keyboard-controls` `pwa-support` `auto-skip` `segment-skipping`
